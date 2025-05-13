@@ -1,0 +1,62 @@
+CUDA available:  True
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1747167846.453704  324935 fork_posix.cc:75] Other threads are currently calling into gRPC, skipping fork() handlers
+[92mINFO [0m:      
+[92mINFO [0m:      Received: train message bda15c09-7d69-474a-8e0f-52fbe4384196
+Partition ID:  1
+Using downloaded and verified file: /home/stu11/s15/ts7244/.medmnist/pathmnist.npz
+Using downloaded and verified file: /home/stu11/s15/ts7244/.medmnist/pathmnist.npz
+Flipped labels for partition  1
+12.1
+CUDA available:  True
+Using device:  Tesla T4
+Training model
+Epoch 1/5, Loss: 2.8820657789284456
+Epoch 2/5, Loss: 2.4703663790479617
+Epoch 3/5, Loss: 2.345812182899908
+Epoch 4/5, Loss: 2.312691768855913
+Epoch 5/5, Loss: 2.30730690854661
+Average training loss: 2.30730690854661
+Time taken for training:  42.95000982284546
+[92mINFO [0m:      Sent reply
+[92mINFO [0m:      
+[92mINFO [0m:      Received: evaluate message 4416112a-b199-47a8-bced-4c96f175e484
+Partition ID:  1
+Flipped labels for partition  1
+12.1
+CUDA available:  True
+Using device:  Tesla T4
+Evaluating model
+Time taken for evaluation:  0.42255640029907227
+Achieved accuracy of  0.15877437325905291
+[92mINFO [0m:      Sent reply
+[92mINFO [0m:      
+[92mINFO [0m:      Received: train message 2aad16fa-a155-4e2b-abf7-ddbf94663216
+Partition ID:  1
+Flipped labels for partition  1
+12.1
+CUDA available:  True
+Using device:  Tesla T4
+Training model
+Epoch 1/5, Loss: 2.344777275484504
+Epoch 2/5, Loss: 2.3053147386997304
+Epoch 3/5, Loss: 2.3041589860375047
+Epoch 4/5, Loss: 2.304433470922159
+Epoch 5/5, Loss: 2.303147337960859
+Average training loss: 2.303147337960859
+Time taken for training:  41.458296060562134
+[92mINFO [0m:      Sent reply
+[92mINFO [0m:      
+[92mINFO [0m:      Received: evaluate message d938aefa-4ca4-41de-b9ae-30cb7e85d228
+Partition ID:  1
+Flipped labels for partition  1
+12.1
+CUDA available:  True
+Using device:  Tesla T4
+Evaluating model
+Time taken for evaluation:  0.36042070388793945
+Achieved accuracy of  0.06963788300835655
+[92mINFO [0m:      Sent reply
+[92mINFO [0m:      
+[92mINFO [0m:      Received: reconnect message 138dd87a-d54a-4223-811c-738e1a8f664b
+[92mINFO [0m:      Disconnect and shut down
